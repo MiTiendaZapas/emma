@@ -1,0 +1,18 @@
+{
+  "_ayuda": [
+    "Precios de INDUMENTARIA Y ZAPATILLAS EMMA (tienda al público).",
+    "Zapatillas $60.000, Jordan 11 $65.000, ojotas Mind $47.000, otras ojotas $40.000.",
+    "Gana la PRIMERA regla que coincide, de arriba hacia abajo. 'contains': alguna de esas palabras aparece en el nombre. 'startsWith': el nombre empieza así (también con la marca adelante).",
+    "No vende por mayor: \"wholesale\": false (no se muestra nada de precio por mayor)."
+  ],
+  "wholesale": false,
+  "unit": {
+    "default": 60000,
+    "rules": [
+      { "price": 65000, "contains": ["jordan 11", "retro 11"] },
+      { "price": 47000, "startsWith": ["mind "] },
+      { "price": 40000, "contains": ["ojota"] }
+    ]
+  },
+  "overrides": {}
+}
