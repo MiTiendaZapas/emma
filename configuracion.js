@@ -21,8 +21,8 @@ window.STORE_CONFIG = {
   includeHouseStock: false,
 
   logo: {
-    small: "marca/logo-160.webp",
-    large: "marca/logo-512.webp",
+    small: "marca/logo-emma-160.webp",
+    large: "marca/logo-emma-512.webp",
     alt: "INDUMENTARIA Y ZAPATILLAS EMMA",
   },
 
